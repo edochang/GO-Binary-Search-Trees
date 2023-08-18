@@ -109,7 +109,8 @@ Installed Physical Memory (RAM): 24.0 GB
 ### OS Version ###
 Windows 11 Pro, Version 22H2, OS Build 22621.608
 Windows Subsystem for Linux Distributions:  Ubuntu-20.04
-uname -r >>> 5.15.57.1-microsoft-standard-WSL2
+
+    uname -r >>> 5.15.57.1-microsoft-standard-WSL2
 
 ## Running The Program
 Run the following in the terminal:
