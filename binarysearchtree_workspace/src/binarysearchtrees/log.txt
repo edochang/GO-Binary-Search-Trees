@@ -1,0 +1,7 @@
+hash-workers: 2  -:-  data-workers: 1  -:-  comp-workers: 6  -:-  input: input/fine.txt  -:-  single-trees: falseprint-limit: true
+Absolute path of input is: /home/edo/dev/cs_repo/Lab3/binarysearchtree_workspace/src/binarysearchtrees/input/fine.txt
+Entered operation for hash-workers(2) and data-workers(1)
+hashTime: 21.847384ms 
+hashGroupTime: 21.8718ms 
+compareTreeTime: 16.888360878s 
+comparisonGroup size: 31523 
