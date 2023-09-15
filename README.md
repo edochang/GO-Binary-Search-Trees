@@ -57,7 +57,7 @@ Unlike the Fine dataset, the Coarse dataset can observe performance benefits wit
 ![Hash_and_Hash_Group_Performance_by_Central_Manager](/markdown_assets/Hash_and_Hash_Group_Performance_by_Central_Manager.png)
 ![Hash_and_Hash_Group_Performance_by_Unequal_Hash_Workers_and_Data_Workers](/markdown_assets/Hash_and_Hash_Group_Performance_by_Unequal_Hash_Workers_and_Data_Workers.png)
 
-## Parallelize Tree Comparison (Lab Step 3)
+## Parallelize Tree Comparison
 For using a data structure that enabled safe write across concurrent threads, we observe that parallel tree comparisons write results to an adjacency matrix performs better with no locks on the Coarse dataset.  Even though the logic only allows a go-routine to update a specific location in the array, I chose to add a lock to see how much lock contention would impact the performance.  This met my expectation that the lock contention will have a negative impact to performance.
 
 ![Adjacency_Matrix_Compare_Tree_Performance_Coarse_Lock](/markdown_assets/Adjacency_Matrix_Compare_Tree_Performance_Coarse_Lock.png)
